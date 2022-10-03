@@ -30,8 +30,8 @@ function Navbar() {
           </Link>
           <span>John</span>
           <span>Logout</span>
-          <span>
-            <Link to="/write"> Write </Link>
+          <span className="write">
+            <Link className="link" to="/write"> Write </Link>
           </span>
         </div>
       </div>
